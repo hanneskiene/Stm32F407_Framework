@@ -1,0 +1,29 @@
+core_cm4.h:1685:26:uint32_t NVIC_GetActive(IRQn_Type)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+interrupt_manager.h:56:30:static InterruptDispatcher& InterruptDispatcher::getInstance()	4	static
+interrupt_manager.h:60:7:void InterruptDispatcher::dispatch(unsigned int)	16	static
+interrupt_manager.h:63:7:void InterruptDispatcher::onSysTick()	16	static
+array:90:12:std::array<StaticF<void()>, 90u>::array()	24	static
+interrupt_manager.h:76:2:InterruptDispatcher::InterruptDispatcher()	16	static
+pin_device.h:63:11:mcu::Pin::Pin(mcu::Pin::Port, uint32_t, mcu::Pin::Direction, mcu::Pin::Afsel, mcu::Pin::Pupd)	24	static
+pin_device.h:72:14:void mcu::Pin::set() const	16	static
+pin_device.h:76:14:void mcu::Pin::clr() const	16	static
+pin_device.h:80:14:void mcu::Pin::tgl() const	16	static
+pin_device.h:96:14:void mcu::Pin::enableClock() const	24	static
+pin_device.h:121:14:void mcu::Pin::setAlternateFunction(mcu::Pin::Afsel) const	16	static
+interrupt_manager.cpp:13:6:void Default_Handler()	32	static
+interrupt_manager.cpp:28:6:void SysTick_Handler()	8	static
+interrupt_manager.cpp:31:6:void NMI_Handler()	4	static
+interrupt_manager.cpp:34:6:void HardFault_Handler()	4	static
+interrupt_manager.cpp:37:6:void MemManage_Handler()	4	static
+interrupt_manager.cpp:40:6:void BusFault_Handler()	4	static
+interrupt_manager.cpp:43:6:void UsageFault_Handler()	4	static
+interrupt_manager.cpp:46:6:void SVC_Handler()	4	static
+interrupt_manager.cpp:49:6:void DebugMon_Handler()	4	static
+interrupt_manager.cpp:52:6:void PendSV_Handler()	4	static
+array:53:7:static constexpr _Tp& std::__array_traits<_Tp, _Nm>::_S_ref(const _Tp (&)[_Nm], std::size_t) [with _Tp = StaticF<void()>; unsigned int _Nm = 90u]	16	static
+array:189:7:std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::at(std::array<_Tp, _Nm>::size_type) [with _Tp = StaticF<void()>; unsigned int _Nm = 90u]	16	static
+staticfunction.h:77:7:) [with TRet = void; TArgs = {}; unsigned int TSize = 12u]	24	static
+staticfunction.h:56:2:), TSize>::StaticF() [with TRet = void; TArgs = {}; unsigned int TSize = 12u]	16	static
+interrupt_manager.cpp:54:1:void __static_initialization_and_destruction_0(int, int)	16	static
+interrupt_manager.cpp:54:1:cpp)	8	static
