@@ -19,9 +19,9 @@
 #include "../inc/gfx.h"
 
 // NO statics that require a constructor in functions, if needed compile with ?-fno_threadsafe_statics
+//Requires the Guideline Support Library by Microsoft (add to eclipse include paths)
 
 int main() {
-
 
 	__disable_irq();
 
